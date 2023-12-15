@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="hyperlink"><a href="https://www.smslucknow.ac.in/why-sms">Know More..</a></string>
+    <string name="hyperlink2"><a href="https://www.smslucknow.ac.in/events">Know More..</a></string>
+    <string name="enter_email">Enter email</string>
+    <string name="sensing_the_ever_growing_need_for_competent_and_highly_trained_professionals_endowed_with_rich_business_acumen_skills_and_aptitude_to_operate_in_the_highly_complex_and_fast_changing_economic_and_industrial_environment_the_sms_society_a_philanthropic_social_organization_registered_under_the_societies_registration_act_1860_established_an_autonomous_nonprofit_educational_center_school_of_management_sciences_sms_in_varanasi_in_the_year_1995_avowed_with_a_mission_of_imparting_highly_innovative_management_computer_and_other_technical_education_in_the_eastern_part_of_india_which_happened_to_be_the_need_of_the_hour_keeping_in_pace_with_the_country_s_economy_heading_fast_towards_globalization_aware_of_its_mission_of_producing_highly_competent_management_and_technology_graduates_the_sms_society_established_another_center_of_excellence_at_lucknow_in_the_year_2008_school_of_management_sciences_lucknow_has_received_a_grade_accreditation_from_naac_national_assessment_and_accreditation_council_an_autonomous_institution_of_the_university_grants_commission_ministry_of_hrd_govt_of_india_in_a_very_short_span_of_15_years_sms_lucknow_has_also_been_awarded_the_prestigious_iso_9001_2015_quality_management_systems_certification_by_uaf_united_accrediation_foundation_the_iso_9001_2015_certification_means_that_the_quality_of_the_institute_s_processes_and_standards_are_on_par_with_international_management_systems_it_also_means_that_sms_lucknow_has_instituted_quality_assurance_methods_in_teaching_research_and_support_services_and_have_built_procedures_for_its_maintenance_sms_lucknow_currently_offers_the_bachelor_of_technology_b_tech_programme_and_masters_in_bussiness_administration_mba_approved_by_aicte_and_affiliated_to_dr_a_p_j_abdul_kalam_techincal_university_sms_lucknow_has_added_the_bachelor_of_business_administration_bba_bachelor_of_computer_application_bca_bachelor_of_commerce_b_com_and_bachelor_of_commerce_hons_bachelor_of_science_bsc_maths_b_voc_affiliated_to_lucknow_university_and_diploma_in_engineering_programs_mechanical_civil_computer_science_and_electrical_affiliated_to_board_of_technical_education_have_been_added_sms_lucknow_also_is_recognised_under_section_2_f_12_b_of_ugc_act_of_1956"><![CDATA[Sensing the ever-growing need for competent and highly trained professionals endowed with rich business acumen, skills and aptitude to operate in the highly complex and fast-changing economic and industrial environment, the SMS Society, a philanthropic social organization, registered under the Societies Registration Act, 1860, established an autonomous nonprofit educational center, School of Management Sciences (SMS), in Varanasi in the year 1995 avowed with a mission of imparting highly innovative management, computer and other technical education in the eastern part of India, which happened to be the need of the hour keeping in pace with the country\'s economy heading fast towards globalization.Aware of its mission of producing highly competent Management and Technology graduates, the SMS Society established another center of excellence at Lucknow in the year 2008. School of Management Sciences, Lucknow has received A+ grade accreditation from NAAC - National Assessment and Accreditation Council (An Autonomous Institution of the University Grants Commission) Ministry of HRD Govt. of India in a very short span of 15 years. SMS Lucknow has also been awarded the prestigious ISO. 9001:2015 Quality Management Systems certification by UAF (United Accrediation Foundation). The ISO 9001:2015 certification means that the quality of the Institute\'s processes and standards are on par with International management systems. It also means that SMS Lucknow has instituted quality assurance methods in teaching, research and support services, and have built procedures for its maintenance.SMS lucknow currently offers the Bachelor of Technology (B.Tech) programme and Masters in Bussiness Administration (MBA) approved by AICTE and affiliated to Dr. A. P. J. Abdul Kalam Techincal University, SMS Lucknow has added the Bachelor of Business Administration (BBA), Bachelor of Computer Application (BCA), Bachelor of Commerce (B.Com) and Bachelor of Commerce (Hons), Bachelor of Science (BSc)-Maths & B.Voc, affiliated to Lucknow University and Diploma in Engineering Programs (Mechanical, Civil, Computer Science and Electrical ) affiliated to Board of Technical Education have been added.SMS Lucknow also is recognised under section 2(f) & 12(B) of UGC Act of 1956.]]></string>
+    <string name="ingenuity_2022_a_techno_cultural_and_sports_event_organized_by_department_of_computer_science_engineering_at_sms_lucknow_in_which_technical_cultural_sports_events_will_be_organized_this_will_provide_a_platform_for_all_participants_to_showcase_their_talent"><![CDATA[“INGENUITY 2022” a Techno Cultural and Sports event organized by Department of Computer Science & Engineering at SMS Lucknow In which Technical, Cultural Sports events will be organized. This will provide a platform for all participants to showcase their talent.]]></string>
+</resources>

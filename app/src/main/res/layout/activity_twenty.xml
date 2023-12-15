@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTwenty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        app:title="School Management System"
+        app:titleTextColor="@color/white"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/padding">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INGENUITY 2022"
+            android:id="@+id/txt"
+            android:textSize="20dp"
+            android:textColor="@color/primary"
+            android:fontFamily="serif"
+            android:textFontWeight="15"
+            android:background="@drawable/underline"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/txt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/e1e1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:textSize="15dp"
+            android:fontFamily="serif"
+            android:id="@+id/txt2"
+            android:text="@string/ingenuity_2022_a_techno_cultural_and_sports_event_organized_by_department_of_computer_science_engineering_at_sms_lucknow_in_which_technical_cultural_sports_events_will_be_organized_this_will_provide_a_platform_for_all_participants_to_showcase_their_talent"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick Links"
+            android:id="@+id/link"
+            android:textSize="20dp"
+            android:textColor="@color/primary"
+            android:fontFamily="serif"
+            android:layout_below="@+id/txt2"
+            android:textFontWeight="15"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/underline"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/hyperlink"
+            android:layout_below="@id/link"
+            android:textSize="15dp"
+            />
+
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

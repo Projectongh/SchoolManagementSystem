@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAboutSMS">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        app:title="School Management System"
+        app:titleTextColor="@color/white"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About SMS"
+                android:id="@+id/txt"
+                android:textSize="20dp"
+                android:textColor="@color/primary"
+                android:fontFamily="serif"
+                android:textFontWeight="15"
+                android:background="@drawable/underline"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/txt"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/sms" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img1"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                android:id="@+id/txt2"
+                android:text="@string/sensing_the_ever_growing_need_for_competent_and_highly_trained_professionals_endowed_with_rich_business_acumen_skills_and_aptitude_to_operate_in_the_highly_complex_and_fast_changing_economic_and_industrial_environment_the_sms_society_a_philanthropic_social_organization_registered_under_the_societies_registration_act_1860_established_an_autonomous_nonprofit_educational_center_school_of_management_sciences_sms_in_varanasi_in_the_year_1995_avowed_with_a_mission_of_imparting_highly_innovative_management_computer_and_other_technical_education_in_the_eastern_part_of_india_which_happened_to_be_the_need_of_the_hour_keeping_in_pace_with_the_country_s_economy_heading_fast_towards_globalization_aware_of_its_mission_of_producing_highly_competent_management_and_technology_graduates_the_sms_society_established_another_center_of_excellence_at_lucknow_in_the_year_2008_school_of_management_sciences_lucknow_has_received_a_grade_accreditation_from_naac_national_assessment_and_accreditation_council_an_autonomous_institution_of_the_university_grants_commission_ministry_of_hrd_govt_of_india_in_a_very_short_span_of_15_years_sms_lucknow_has_also_been_awarded_the_prestigious_iso_9001_2015_quality_management_systems_certification_by_uaf_united_accrediation_foundation_the_iso_9001_2015_certification_means_that_the_quality_of_the_institute_s_processes_and_standards_are_on_par_with_international_management_systems_it_also_means_that_sms_lucknow_has_instituted_quality_assurance_methods_in_teaching_research_and_support_services_and_have_built_procedures_for_its_maintenance_sms_lucknow_currently_offers_the_bachelor_of_technology_b_tech_programme_and_masters_in_bussiness_administration_mba_approved_by_aicte_and_affiliated_to_dr_a_p_j_abdul_kalam_techincal_university_sms_lucknow_has_added_the_bachelor_of_business_administration_bba_bachelor_of_computer_application_bca_bachelor_of_commerce_b_com_and_bachelor_of_commerce_hons_bachelor_of_science_bsc_maths_b_voc_affiliated_to_lucknow_university_and_diploma_in_engineering_programs_mechanical_civil_computer_science_and_electrical_affiliated_to_board_of_technical_education_have_been_added_sms_lucknow_also_is_recognised_under_section_2_f_12_b_of_ugc_act_of_1956"
+              />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quick Links"
+                android:id="@+id/link"
+                android:textSize="20dp"
+                android:textColor="@color/primary"
+                android:fontFamily="serif"
+                android:layout_below="@+id/txt2"
+                android:textFontWeight="15"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/underline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/hyperlink"
+                android:layout_below="@id/link"
+                android:textSize="15dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
